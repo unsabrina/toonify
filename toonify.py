@@ -1,33 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@unsabrina 
-richieyuyongpoh
-/
-toonify
-Public
-1
-00
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-toonify/toonify.py /
-@richieyuyongpoh
-richieyuyongpoh Update toonify.py
-Latest commit ed8a70c on Jul 1
- History
- 1 contributor
-73 lines (51 sloc)  2.25 KB
-   
 import streamlit as st 
 import requests
 from io import StringIO  
@@ -41,7 +11,7 @@ This is a python based web app for toonifying your image.
 
 st.sidebar.write ("For more info, please contact:")
 
-st.sidebar.write("<a href='https://www.linkedin.com/in/ungku-nur-sabrina-ungku-abdul-nassir-55802318/'> Ungku Nur Sabrina Binti Ungku Abdul Nassir </a>", unsafe_allow_html=True)
+st.sidebar.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
 
 key = st.sidebar.radio(
     "Choose a key",   
@@ -101,16 +71,3 @@ if st.sidebar.button('RUN'):
 
     else:
           st.sidebar.write("<font color='red'>Please upload an image.</font>", unsafe_allow_html=True)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
