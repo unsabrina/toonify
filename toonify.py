@@ -11,7 +11,7 @@ This is a python based web app for toonifying your image.
 
 st.sidebar.write ("For more info, please contact:")
 
-st.sidebar.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+st.sidebar.write("<a href='https://www.linkedin.com/in/ungku-nur-sabrina-ungku-abdul-nassir-55802318/'> Ungku Nur Sabrina Binti Ungku abdul Nassir </a>", unsafe_allow_html=True)
 
 key = st.sidebar.radio(
     "Choose a key",   
